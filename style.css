@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+        font-family: 'Cairo', sans-serif;
+}
+body{
+    background-color: aliceblue;
+
+}
+.game{
+    display: flex;
+    padding: 55px;
+    text-align: center;
+    justify-content: center;
+}
+.playerOne, .playerTwo{
+    margin: 100px;
+    margin-left: 0%;
+}
+.playerTwo{
+    margin-left: 10px;
+}
+.contrlPlayerOne input, .contrlPlayerTwo input{
+    padding: 5px;
+    margin: 10px;
+    display: block;
+    color: #333;
+}
+.contrlPlayerOne input[value="Head"], .contrlPlayerTwo input[value="Head"]{
+     background-color: wheat;
+}
+.contrlPlayerOne input[value="Leg"], .contrlPlayerTwo input[value="Leg"]{
+background-color: #8989ff;
+padding: 5px 9.5px;
+}
+.contrlPlayerOne input[value="Hand"], .contrlPlayerTwo input[value="Hand"]{
+background-color: #f68f8f;
+}
